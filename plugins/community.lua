@@ -9,4 +9,5 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.typescript", enabled = true },
+  { import = "astrocommunity.motion.nvim-surround" },
 }

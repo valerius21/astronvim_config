@@ -32,4 +32,9 @@ return {
     event = "User AstroFile",
     ft = { "yaml", "yml" },
   },
+  { -- TODO: make it work
+    "0x100101/lab.nvim",
+    event = "User AstroFile",
+    ft = { "typescriptreact", "javascriptreact", "typescript", "javascript" },
+  },
 }

@@ -37,6 +37,8 @@ return {
     ["<C-q>"] = { ":q<cr>", desc = "Quit Current Window" },
     ["tt"] = { "<cmd>TypescriptAddMissingImports<cr>", desc = "Add missing Typescript Imports" }, -- TODO: only activate it in typescript, typescriptreact
     ["<leader>rr"] = { "oif err != nil {<CR>}<Esc>Oreturn err", desc = "handle error in Go" }, -- TODO: only activate it in go
+    ["L"] = { "<cmd>bnext<cr>", desc = "Next buffer" },
+    ["H"] = { "<cmd>bprevious<cr>", desc = "Previous buffer" },
   },
   t = {
     -- setting a mapping to false will disable it
